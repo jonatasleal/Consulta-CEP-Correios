@@ -1,8 +1,4 @@
 <?php
-
-	echo '<pre>';
-	print_r($_POST);
-	echo '</pre>';
 	
 	if( empty( $_POST ) || !isset( $_POST['cep'] ) || empty( $_POST['cep'] ) ) // Evita CEP vazio
 	{
